@@ -1,0 +1,14 @@
+{
+    "name": "joaomndz/dev",
+    "autoload": {
+        "psr-4": {
+            "Joaomndz\\Dev\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "João Gabriel"
+        }
+    ],
+    "require": {}
+}
