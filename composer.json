@@ -5,10 +5,17 @@
             "App\\": "src/"
         }
     },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
     "authors": [
         {
             "name": "João Gabriel"
         }
     ],
-    "require": {}
+    "require-dev": {
+        "phpunit/phpunit": "^13.2"
+    }
 }
