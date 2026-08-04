@@ -8,8 +8,9 @@ RUN apt-get update && apt-get install -y \
     libpng-dev \
     libonig-dev \
     libxml2-dev \
+    libsqlite3-dev \
     libpq-dev \
-    && docker-php-ext-install pdo_pgsql mbstring gd \
+    && docker-php-ext-install pdo_pgsql pdo_sqlite mbstring gd \
     && rm -rf /var/lib/apt/lists/*
 
 COPY --from=composer:latest /usr/bin/composer /usr/bin/composer
