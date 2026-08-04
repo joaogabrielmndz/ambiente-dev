@@ -2,7 +2,7 @@
     "name": "joaomndz/dev",
     "autoload": {
         "psr-4": {
-            "Joaomndz\\Dev\\": "src/"
+            "App\\": "src/"
         }
     },
     "authors": [
